@@ -1,6 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    // flex-direction: row;
+    // width: 100%;
+    // margin: auto;
+}
+
+.logo{
+    padding-top: 5rem;
+    margin: auto;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content:space-between;
+    align-items:center;
+    width: 100vw;
+}
+
+.hero-section-img-01-container{
+
+    // margin-left: 0;
+    float: left;
+}
+
+// .hero-section-img-02-container{
+//     float: right;
+// }
+
+.hero-section-content{
+    text-align: center;
+
+    h1{
+        font-size: 4rem;
+        font-weight: 700;
+        color: #28283D;
+        padding: 0 2rem;
+    }
+
+    p{
+        font-size: 1.1rem;
+        color: #87879D;
+        padding: 2.2rem 0;
+    }
+}
+
+.hero-section-btn{
+    button{
+        &:nth-child(1){
+            background-color: #4D96A9;
+        }
+
+        &:nth-child(2){
+            background-color: #855FB1;
+        }
+    }
+}
