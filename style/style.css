@@ -49,6 +49,22 @@ body {
   padding: 2.2rem 0;
 }
 
+.hero-section-btn button {
+  border: none;
+  color: #fff;
+  padding: 16px 40px;
+  border-radius: 29px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.hero-section-btn button span {
+  font-size: 0.9rem;
+  color: #8FE3F9;
+}
+
 .hero-section-btn button:nth-child(1) {
   background-color: #4D96A9;
 }
