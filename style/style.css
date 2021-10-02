@@ -26,10 +26,23 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+  overflow: hidden;
 }
 
 .hero-section-img-01-container {
   float: left;
+}
+
+.hero-section-img {
+  position: relative;
+}
+
+.hero-section-img-01 {
+  left: -3.5625rem;
+}
+
+.hero-section-img-02 {
+  right: -3.5625rem;
 }
 
 .hero-section-content {

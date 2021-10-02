@@ -30,6 +30,7 @@ body{
     justify-content:space-between;
     align-items:center;
     width: 100vw;
+    overflow: hidden;
 }
 
 .hero-section-img-01-container{
@@ -41,6 +42,19 @@ body{
 // .hero-section-img-02-container{
 //     float: right;
 // }
+
+.hero-section-img{
+    position: relative;
+}
+
+.hero-section-img-01{
+    left: -3.5625rem;
+}
+
+.hero-section-img-02{
+    right: -3.5625rem;
+}
+
 
 .hero-section-content{
     text-align: center;
@@ -75,8 +89,14 @@ body{
             color: #8FE3F9;
         }
 
+        // &:nth-child(1),
+        // &:nth-child(2){
+        //     position: relative;
+        // }
+
         &:nth-child(1){
             background-color: #4D96A9;
+            // left: 2px;
         }
 
         &:nth-child(2){
