@@ -87,7 +87,10 @@ body {
 }
 
 .number-section {
+  margin-top: 185px;
   width: 100vw;
+  min-height: 100px;
+  height: auto;
   height: auto;
   display: flex;
   align-items: center;
@@ -96,8 +99,26 @@ body {
 .number-section .number {
   margin-left: auto;
   margin-right: auto;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 50%;
+  position: relative;
 }
 
 .number-section .number p {
-  border: 1px solid;
+  color: #87879d;
+  font-weight: 600;
+}
+
+.number-section .number::before {
+  content: ' ';
+  width: 85px;
+  border-top: 1px solid rgba(135, 135, 157, 0.25);
+  position: absolute;
+  bottom: 95px;
+  transform: rotate(90deg);
 }

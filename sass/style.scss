@@ -2,13 +2,16 @@
 
 // Variables
 $main-white: #fff;
+$secondary-white: #FAFAFA; // for number 2 bg-color
 $main-grey: #87879D; //for paragraph
+$grey-number: rgb(135, 135, 157); //grey for number
 $secondary-grey: rgba(135, 135, 157, 0.25); // for number border
 $third-grey: #979797; //for img background
 $main-blue: #28283D; //for heading
 $main-light-blue: #4D96A9; //btn
 $secondary-light-blue: #71C0D4; //btn hover
 $third-light-blue: #8FE3F9; //btn span
+$fourth-light-blue: rgba(77, 150, 168, 0.9); // footer bg color
 $main-purple: #855FB1; //btn
 $secondary-purple: #B18BDD; //btn hover
 
@@ -75,13 +78,13 @@ body{
     h1{
         font-size: 4rem;
         font-weight: 700;
-        color: #28283D;
+        color: $main-blue;
         padding: 0 2rem;
     }
 
     p{
         font-size: 1.1rem;
-        color: #87879D;
+        color: $main-grey;
         padding: 2.2rem 0;
     }
 }
@@ -136,8 +139,10 @@ body{
 // }
 
 .number-section{
-    // margin-top: 85px;
+    margin-top: 185px;
     width: 100vw;
+    min-height: 100px;
+    height: auto;
     height: auto;
     display: flex;
     align-items: center;
@@ -146,25 +151,37 @@ body{
     .number{
         margin-left: auto;
         margin-right: auto;
+        // margin-top: 15px;
+        width: 55px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $secondary-grey;
+        border-radius: 50%;
+        position: relative;
 
         p{
-            border: 1px solid ;
+            // border: 1px solid $secondary-grey;
+            color: $grey-number;
+            font-weight: 600;
+            // padding: 15px;
+            // border-radius: 50%;
+            
         }
-
-        // p{
-            // 
-        // }
 
     }
 
-    // .number::before{
-    //     content: ' ';
-    //     width: 100%;
-    //     height: 100%;
-    //     // background-color: rgba(135, 135, 157, 0.25);
-    //     border-top: 1px solid #000;
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    // }
+    .number::before{
+        content: ' ';
+        width: 85px;
+        // height: 1px;
+        // background-color: rgba(135, 135, 157, 0.25);
+        border-top: 1px solid $secondary-grey;
+
+        position: absolute;
+        bottom: 95px;
+        transform: rotate(90deg);
+        // left: 0;
+    }
 }
