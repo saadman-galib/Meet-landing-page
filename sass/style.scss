@@ -102,6 +102,7 @@ body{
         outline: none;
         font-weight: 700;
         font-size: 1rem;
+        // width: 149px;
 
         span{
             font-size: 0.9rem;
@@ -110,6 +111,7 @@ body{
 
         &:nth-child(1){
             background-color: #4D96A9;
+            margin-right: 15px;
             // left: 2px;
         }
 
@@ -293,6 +295,15 @@ body{
 
         p:not(:last-child){
             margin-bottom: 25px;
+        }
+
+        .main-btn{
+            font-size: 12px;
+            padding: 22px 50px;
+
+            span{
+                font-size: 10px;
+            }
         }
     }
 }
