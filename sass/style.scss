@@ -108,20 +108,38 @@ body{
             color: #8FE3F9;
         }
 
-        // &:nth-child(1),
-        // &:nth-child(2){
-        //     position: relative;
-        // }
-
         &:nth-child(1){
             background-color: #4D96A9;
             // left: 2px;
         }
 
-        &:nth-child(2){
-            background-color: #855FB1;
+        &:nth-child(1):hover{
+            background-color: $secondary-light-blue;
         }
     }
+}
+
+.main-btn{
+    border: none;
+    color: #fff;
+    padding: 16px 40px;
+    border-radius: 29px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 700;
+    font-size: 1rem;    
+    background-color: #855FB1;
+    // height: auto;
+
+    span{
+        font-size: 0.9rem;
+        color: #D9B8FF;
+    }
+
+}
+
+.main-btn:hover{
+    background-color: $secondary-purple;
 }
 
 /* End of hero section */
@@ -198,6 +216,7 @@ body{
                 width: 250px;
                 height: auto;
                 border-radius: $main-radius;
+                background-color: $third-grey;
             }
 
         }
@@ -206,4 +225,75 @@ body{
 /* End of chat section */
 
 /* Start of description */
+.description-section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 85px;
+
+    h3{
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        color: $main-light-blue;
+    }
+
+    h1{
+        font-size: 40px;
+        line-height: 42px;
+        color: $main-blue;
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+
+    P{
+        color: $main-grey;
+        font-size: 18px;
+        // line-height: 22px;
+    }
+
+    p:not(last-child){
+        margin-bottom: 25px;
+    }
+}
 /* End of description */
+
+
+.number-02{
+    background-color: $secondary-white;
+    transform: translateY(50px);
+}
+
+/* Start of footer */
+.footer-container{
+    width: 100%;
+    height: 310px;
+    background-color: $fourth-light-blue;
+    // background: linear-gradient($fourth-light-blue, $fourth-light-blue), url('../images/desktop/image-footer.jpg') no-repeat center/cover;
+    padding: 0 235px;
+
+    .footer{
+        background: linear-gradient($fourth-light-blue, $fourth-light-blue), url('../images/desktop/image-footer.jpg') no-repeat center/cover;
+        height: 100%;
+        color: $main-white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 18px;
+            margin: 0 145px;
+        }
+
+        p:not(:last-child){
+            margin-bottom: 25px;
+        }
+    }
+}
+/* End of footer */

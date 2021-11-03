@@ -83,8 +83,29 @@ body {
   background-color: #4D96A9;
 }
 
-.hero-section-btn button:nth-child(2) {
+.hero-section-btn button:nth-child(1):hover {
+  background-color: #71C0D4;
+}
+
+.main-btn {
+  border: none;
+  color: #fff;
+  padding: 16px 40px;
+  border-radius: 29px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+  font-size: 1rem;
   background-color: #855FB1;
+}
+
+.main-btn span {
+  font-size: 0.9rem;
+  color: #D9B8FF;
+}
+
+.main-btn:hover {
+  background-color: #B18BDD;
 }
 
 /* End of hero section */
@@ -151,8 +172,78 @@ body {
   width: 250px;
   height: auto;
   border-radius: 12px;
+  background-color: #979797;
 }
 
 /* End of chat section */
 /* Start of description */
+.description-section {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 85px;
+}
+
+.description-section h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  color: #4D96A9;
+}
+
+.description-section h1 {
+  font-size: 40px;
+  line-height: 42px;
+  color: #28283D;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.description-section P {
+  color: #87879D;
+  font-size: 18px;
+}
+
+.description-section p:not(last-child) {
+  margin-bottom: 25px;
+}
+
 /* End of description */
+.number-02 {
+  background-color: #FAFAFA;
+  transform: translateY(50px);
+}
+
+/* Start of footer */
+.footer-container {
+  width: 100%;
+  height: 310px;
+  background-color: rgba(77, 150, 168, 0.9);
+  padding: 0 235px;
+}
+
+.footer-container .footer {
+  background: linear-gradient(rgba(77, 150, 168, 0.9), rgba(77, 150, 168, 0.9)), url("../images/desktop/image-footer.jpg") no-repeat center/cover;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container .footer h1 {
+  font-size: 40px;
+}
+
+.footer-container .footer p {
+  font-size: 18px;
+  margin: 0 145px;
+}
+
+.footer-container .footer p:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+/* End of footer */
