@@ -19,13 +19,14 @@ body {
   margin: auto;
 }
 
+/* Start of hero section */
 .hero-section {
   display: flex;
   flex-direction: row;
   margin-top: 5rem;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -86,9 +87,10 @@ body {
   background-color: #855FB1;
 }
 
+/* End of hero section */
 .number-section {
   margin-top: 185px;
-  width: 100vw;
+  width: 100%;
   min-height: 100px;
   height: auto;
   height: auto;
@@ -122,3 +124,35 @@ body {
   bottom: 95px;
   transform: rotate(90deg);
 }
+
+/* Start of chat section */
+.chat-section-container {
+  width: 100%;
+  height: auto;
+  margin-top: 55px;
+}
+
+.chat-section-container .chat-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 250px;
+}
+
+.chat-section-container .chat-section .chat {
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  padding: 0 15px;
+}
+
+.chat-section-container .chat-section .chat img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* End of chat section */
+/* Start of description */
+/* End of description */

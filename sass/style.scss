@@ -14,6 +14,7 @@ $third-light-blue: #8FE3F9; //btn span
 $fourth-light-blue: rgba(77, 150, 168, 0.9); // footer bg color
 $main-purple: #855FB1; //btn
 $secondary-purple: #B18BDD; //btn hover
+$main-radius: 12px;
 
 
 *{
@@ -39,13 +40,15 @@ body{
     margin: auto;
 }
 
+/* Start of hero section */
+
 .hero-section{
     display: flex;
     flex-direction: row;
     margin-top: 5rem;
     justify-content:space-between;
     align-items:center;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -121,26 +124,11 @@ body{
     }
 }
 
-// .number{
-//     margin-top: 45px;
-//     // padding: 1rem;
-//     border-radius: 50%;
-//     // display: flex;
-//     // align-items: center;
-//     margin-left: auto;
-//     p{
-//         text-align: center;
-//         border: 1px solid rgba(135, 135, 157, 0.25);
-//         padding: 14px 18px;
-//         border-radius: 50%;
-//         width: 1rem;
-//         height: 1rem;
-//     }
-// }
+/* End of hero section */
 
 .number-section{
     margin-top: 185px;
-    width: 100vw;
+    width: 100%;
     min-height: 100px;
     height: auto;
     height: auto;
@@ -185,3 +173,37 @@ body{
         // left: 0;
     }
 }
+
+/* Start of chat section */
+.chat-section-container{
+    width: 100%;
+    height: auto;
+    margin-top: 55px;
+
+    .chat-section{
+        display: flex;
+        flex-direction: row;
+        // align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 250px;
+
+        .chat{
+            width: auto;
+            height: auto;
+            border-radius: $main-radius;
+            padding: 0 15px;
+
+            img{
+                width: 250px;
+                height: auto;
+                border-radius: $main-radius;
+            }
+
+        }
+    }
+}
+/* End of chat section */
+
+/* Start of description */
+/* End of description */
