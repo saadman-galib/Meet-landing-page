@@ -87,7 +87,6 @@ body {
 }
 
 .number-section {
-  margin-top: 45px;
   width: 100vw;
   height: auto;
   display: flex;
@@ -99,12 +98,6 @@ body {
   margin-right: auto;
 }
 
-.number-section .number::before {
-  content: ' ';
-  width: 100%;
-  height: 100%;
-  border-top: 1px solid #000;
-  position: absolute;
-  top: 0;
-  left: 0;
+.number-section .number p {
+  border: 1px solid;
 }
