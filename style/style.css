@@ -9,6 +9,10 @@ body {
   font-family: 'Red Hat Display', sans-serif;
 }
 
+.responsive{
+  display: none
+}
+
 .center {
   display: flex;
   align-items: center;
@@ -255,5 +259,14 @@ body {
 .footer-container .footer .main-btn span {
   font-size: 10px;
 }
-
 /* End of footer */
+/* Media Queries */
+@media (max-width: 1900px) {
+    .main-container{
+      display: none;
+    }
+
+    .responsive{
+        display: block !important;
+    }
+}
