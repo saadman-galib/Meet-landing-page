@@ -367,6 +367,15 @@ body {
     }
 }
 
+@media (max-width: 1069px) {
+    .chat-section-container {
+        .chat-section {
+            // width: 50%;
+            padding: 0;
+            margin: auto;
+        }
+    }
+}
 @media (max-width: 868px) {
     .hero-section-img-01-container {
         img {
@@ -430,14 +439,6 @@ body {
             &:nth-child(1) {
                 margin-right: auto;
             }
-        }
-    }
-
-    .chat-section-container {
-        .chat-section {
-            // width: 50%;
-            padding: 0;
-            margin: auto;
         }
     }
 
