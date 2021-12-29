@@ -11,7 +11,7 @@
 
 ## Overview
 
-![screenshot](./images/README.png)
+![screenshot](./images/README.jpg)
 
 
 
