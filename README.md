@@ -34,7 +34,7 @@ git clone https://github.com/saadman-galib/Meet-landing-page.git
 - [Steps to replicate a design with only HTML and CSS](#acknowledgements)
 
 ## Credit
-Thsi is a frontend mentor challange. I have tried to create it using raw HTML and CSS.
+This is a frontend mentor challange. I have tried to create it using raw HTML and CSS.
 
 ## Contact
 
